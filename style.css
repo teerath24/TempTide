@@ -93,3 +93,9 @@ body{
     color: #ebfffc;
     display: none;
 }
+
+@media(max-width:414px){
+    .search input{
+        margin-right:2px
+    } 
+}
