@@ -94,8 +94,10 @@ body{
     display: none;
 }
 
-@media(max-width:414px){
-    .search input{
-        margin-right:2px
-    } 
+@media (max-width: 375px) {
+    .search input {
+        padding: 10px 15px; /* Reduce left and right padding */
+        height: 45px; /* Reduce the height */
+        font-size: 14px; /* Reduce font size */
+    }
 }
